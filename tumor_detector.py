@@ -3,7 +3,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 # rasmga yo'l
-image_path = 'C:\\Users\\Professional\\Desktop\\SIMI1\\test1.png'
+image_path = 'tumor\\1.png'
 image = cv2.imread(image_path,0)
 
 blurred = cv2.GaussianBlur(image, (5, 5), 0)
